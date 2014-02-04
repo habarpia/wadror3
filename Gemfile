@@ -7,9 +7,21 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+group :development, :test do
+  gem 'rspec-rails', '~> 2.14.1'
+end
+
 group :production do
    gem 'pg'
    gem 'rails_12factor' 
+end
+
+
+
+group :test do
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem 'launchy'
 end
 
 # Use SCSS for stylesheets
@@ -22,7 +34,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
