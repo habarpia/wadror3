@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/habarpia/ratebeer3-public.png)](https://travis-ci.org/habarpia/ratebeer3-public)
+[![Build Status](https://travis-ci.org/habarpia/wadror3-public.png)](https://travis-ci.org/habarpia/wadror3-public)
